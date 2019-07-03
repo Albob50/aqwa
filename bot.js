@@ -20,7 +20,6 @@ const gif = require("gif-search"); // npm i gif-search
  
 const client = new Discord.Client({disableEveryone: true});
  
-const prefix = "2";
 /////////////////////////
 ////////////////////////
  
@@ -349,7 +348,7 @@ client.user.setGame(`Type ${prefix}play`,"http://twitch.tv/alpha")
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['help','VillouxShop','By VillouxCommunity',' VillouxShop ','£play'];
+    var setGame = ['1play'];
     var i = -1;
     var j = 0;
     setInterval(function (){
